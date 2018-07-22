@@ -3,6 +3,7 @@
     "description": "A collection of useful classes for common PHP tasks.",
     "type": "library",
     "homepage": "https://php-utility-belt.readthedocs.io",
+    "license": "MIT",
     "authors": [
         {
             "name": "Joe Daigle",
