@@ -5,6 +5,14 @@
 
 Welcome to PHP Utility Belt's documentation!
 ============================================
+.. image:: https://travis-ci.org/josephldaigle/PHP-Utility-Belt.svg?branch=master
+   :target: https://travis-ci.org/josephldaigle/PHP-Utility-Belt
+   :alt: Build Status
+
+.. image:: https://readthedocs.org/projects/php-utility-belt/badge/?version=latest
+   :target: https://php-utility-belt.readthedocs.io
+   :alt: Documentation Status
+
 
 .. toctree::
    :maxdepth: 2
@@ -12,10 +20,3 @@ Welcome to PHP Utility Belt's documentation!
 
    overview
    utilities
-
-
-Features
-==================
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

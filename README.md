@@ -1,6 +1,6 @@
 josephldaigle\php-utility-belt
 ==============
-[![Build Status](https://travis-ci.org/josephldaigle/PHP-Utility-Belt.svg?branch=master)](https://travis-ci.org/josephldaigle/PHP-Utility-Belt)
+[![Build Status](https://travis-ci.org/josephldaigle/PHP-Utility-Belt.svg?branch=master)](https://travis-ci.org/josephldaigle/PHP-Utility-Belt)[![Documentation Status](https://readthedocs.org/projects/php-utility-belt/badge/?version=latest)](https://php-utility-belt.readthedocs.io/en/latest/?badge=latest)
 
 A collection of useful classes to assist with common PHP tasks.
 
