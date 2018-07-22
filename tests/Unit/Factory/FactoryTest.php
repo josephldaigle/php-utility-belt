@@ -54,7 +54,7 @@ class FactoryTest extends TestCase
 		$this->assertInstanceOf(\stdClass::class, $result);
 	}
 
-	public function testCreatIsSuccessWithConstructorArgs(  )
+	public function testCreateIsSuccessWithConstructorArgs(  )
 	{
 		$this->markTestIncomplete();
 		// TODO: Finish implementing.
