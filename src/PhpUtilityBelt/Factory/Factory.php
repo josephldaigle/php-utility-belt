@@ -14,7 +14,7 @@ namespace PhpUtilityBelt\Factory;
  *
  * A simple Factory for creating classes.
  *
- * @package WPDeployer
+ * @package PhpUtilityBelt
  */
 class Factory
 {
@@ -28,6 +28,14 @@ class Factory
 		return new static;
 	}
 
+	/**
+	 * @param string     $className
+	 * @param array|null $args
+	 *
+	 * @return mixed
+	 * @throws \InvalidArgumentException
+	 * @throws \LogicException
+	 */
 	public function create(string $className, array $args = null)
 	{
 		//check if class exists
@@ -36,6 +44,7 @@ class Factory
 		}
 
 		//create the class
+		$instance = false;
 		if (is_null($args)) {
 			$instance = new $className();
 		} else {
@@ -43,7 +52,7 @@ class Factory
 		}
 
 		if (false == $instance)
-			throw new \LogicException(sprintf('An error occurred in call_user_func() while creating a %s', $className));
+			throw new \LogicException(sprintf('An unknown error occurred in call_user_func() while creating a %s', $className));
 
 		//return instance
 		return $instance;

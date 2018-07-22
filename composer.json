@@ -13,7 +13,11 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "PhpUtilityBelt\\":        "src/",
+            "PhpUtilityBelt\\": "src/PhpUtilityBelt/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
             "PhpUtilityBelt\\Test\\": "tests/"
         }
     },

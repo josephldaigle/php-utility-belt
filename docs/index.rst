@@ -8,13 +8,14 @@ Welcome to PHP Utility Belt's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: PHP Utility Belt
+
+   overview
+   utilities
 
 
-
-Indices and tables
+Features
 ==================
-
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
