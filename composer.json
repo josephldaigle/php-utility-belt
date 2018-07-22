@@ -2,6 +2,7 @@
     "name": "josephldaigle/php-utility-belt",
     "description": "A collection of useful classes for common PHP tasks.",
     "type": "library",
+    "homepage": "https://php-utility-belt.readthedocs.io",
     "authors": [
         {
             "name": "Joe Daigle",
