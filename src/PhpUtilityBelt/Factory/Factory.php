@@ -5,9 +5,7 @@
  * Time: 9:21 PM
  */
 
-
 namespace PhpUtilityBelt\Factory;
-
 
 /**
  * Factory.
@@ -44,14 +42,14 @@ class Factory
 		}
 
 		//create the class
-		$instance = false;
+		$instance = null;
 		if (is_null($args)) {
 			$instance = new $className();
 		} else {
 			$instance = call_user_func($className,...$args);
 		}
 
-		if (false == $instance)
+		if (is_null($instance))
 			throw new \LogicException(sprintf('An unknown error occurred in call_user_func() while creating a %s', $className));
 
 		//return instance
